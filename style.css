@@ -1,0 +1,27 @@
+button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.remove {
+  background-color: rgb(209, 14, 14);
+}
+
+li button {
+  margin-left: 15px;
+}
+
+ul {
+  list-style-type: circle;
+  padding-left: 0px;
+}
+
+label,
+input {
+  margin-bottom: 10px;
+}
