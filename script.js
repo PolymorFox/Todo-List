@@ -25,7 +25,6 @@ addButton.addEventListener("click", () => {
   item.insertAdjacentHTML(
     "beforeend",
     `
-    <label for="checkbox">Done</label>
     <input type="checkbox" name="checkbox" id="checkbox" />
     `
   );
