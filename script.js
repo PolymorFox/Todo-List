@@ -17,9 +17,10 @@ resetButton.addEventListener("click", () => {
 
 addButton.addEventListener("click", () => {
   const itemName = document.querySelector("#name").value;
-  const date = document.querySelector("#date").value;
+  let date = new Date(document.querySelector("#date").value);
   const time = document.querySelector("#time").value;
   const item = document.createElement("li");
+  date = Intl.DateTimeFormat("default").format(date); // Set date to correct date
 
   item.innerText = `${itemName} on ${date} at ${time}`;
   item.insertAdjacentHTML(
