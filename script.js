@@ -13,6 +13,11 @@ clearButton.addEventListener("click", () => {
 
 resetButton.addEventListener("click", () => {
   document.querySelector("ul").innerHTML = listItems;
+  document.querySelectorAll("remove").forEach((item) => {
+    item.addEventListener("click", () => {
+      item.parentElement.remove();
+    });
+  });
 });
 
 addButton.addEventListener("click", () => {
