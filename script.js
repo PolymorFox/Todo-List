@@ -27,7 +27,7 @@ addButton.addEventListener("click", () => {
   const item = document.createElement("li");
   date = Intl.DateTimeFormat("default").format(date); // Set date to correct date
 
-  item.innerText = `${itemName} on ${date} at ${time}`;
+  item.innerHTML = `<textarea rows=1 cols=10>${itemName}</textarea> on <textarea rows=1 cols=10>${date}</textarea> at <textarea rows=1 cols=10>${time}</textarea>`;
   item.insertAdjacentHTML(
     "beforeend",
     `
