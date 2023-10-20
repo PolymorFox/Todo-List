@@ -16,32 +16,54 @@
     <title>Todo List</title>
   </head>
   <body>
-    <h1>Todo List</h1>
-    <ul class="todo-list"></ul>
+    <header>
+      <h1>Todo List</h1>
+    </header>
+    <hr />
+    <main>
+      <ul class="todo-list"></ul>
 
-    <button id="clear">Clear <i class="fa-solid fa-eraser"></i></button>
-    &nbsp;
-    <button id="reset">Reset <i class="fa-solid fa-spinner"></i></button>
-    <br />
-    <label for="name">Enter Todo Name: </label>
-    <i class="fa-solid fa-pen"></i>
-    <input type="text" name="name" id="name" />
-    <br />
-    <label for="date">Enter Todo Date: </label>
-    <i class="fa-solid fa-pen"></i>&nbsp;
-    <input type="date" name="date" id="date" />
-    <br />
-    <label for="time">Enter Todo Time: </label>
-    <i class="fa-solid fa-pen"></i>&nbsp;
-    <input type="time" name="time" id="time" />
+      <button id="clear">Clear <i class="fa-solid fa-eraser"></i></button>
+      &nbsp;
+      <button id="reset">Reset <i class="fa-solid fa-spinner"></i></button>
+      <br />
+      <label for="name">Enter Todo Name: </label>
+      <i class="fa-solid fa-pen"></i>
+      <input type="text" name="name" id="name" required />
+      <br />
+      <label for="date">Enter Todo Date: </label>
+      <i class="fa-solid fa-pen"></i>&nbsp;
+      <input type="date" name="date" id="date" required />
+      &nbsp;
+      <i class="fa-regular fa-calendar-days"></i>
+      <br />
+      <label for="time">Enter Todo Time: </label>
+      <i class="fa-solid fa-pen"></i>&nbsp;
+      <input type="time" name="time" id="time" />
 
+      <br />
+      <button id="add">Add <i class="fa-solid fa-plus"></i></button>
+    </main>
+    <hr />
     <br />
-    <button id="add">Add <i class="fa-solid fa-plus"></i></button>
-    <script src="script.js"></script>
-    <script
-      src="https://kit.fontawesome.com/86558bff2b.js"
-      crossorigin="anonymous"
-    ></script>
+    <footer>
+      <h3>Credits</h3>
+
+      <a href="https://fonts.google.com">Google Fonts</a>
+      <br />
+      <a href="https://fontawesome.com">
+        Fontawesome
+        <i class="fa-solid fa-font-awesome"></i>
+      </a>
+      <br />
+      <a href="https://vscodium.com/">Built with VSCodium</a>
+
+      <script src="script.js"></script>
+      <script
+        src="https://kit.fontawesome.com/86558bff2b.js"
+        crossorigin="anonymous"
+      ></script>
+    </footer>
     <!--Font Awesome Kit-->
   </body>
 </html>

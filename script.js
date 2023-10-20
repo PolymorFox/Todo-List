@@ -38,7 +38,7 @@ addButton.addEventListener("click", () => {
   const removeButton = document.createElement("button");
 
   removeButton.className = "remove";
-  removeButton.innerText = "Remove";
+  removeButton.innerHTML = 'Remove <i class="fa-solid fa-xmark"></i>';
 
   removeButton.addEventListener("click", () => {
     removeButton.parentElement.remove();
