@@ -24,6 +24,10 @@ addButton.addEventListener("click", () => {
   const itemName = document.querySelector("#name").value;
   let date = new Date(document.querySelector("#date").value);
   const time = document.querySelector("#time").value;
+  if (itemName === "" || date === "" || time === "") {
+    alert("You must provided all necessary todo information");
+    return;
+  }
   const item = document.createElement("li");
   date = Intl.DateTimeFormat("default").format(date); // Set date to correct date
 
