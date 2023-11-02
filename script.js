@@ -20,7 +20,7 @@ resetButton.addEventListener("click", () => {
   });
 });
 
-addButton.addEventListener("click", () => {
+function addTodoItem() {
   const itemName = document.querySelector("#name").value;
   let date = new Date(document.querySelector("#date").value);
   const time = document.querySelector("#time").value;
@@ -52,4 +52,11 @@ addButton.addEventListener("click", () => {
 
   document.querySelector("ul").appendChild(item);
   listItems = document.querySelector("ul").innerHTML;
+}
+
+addButton.addEventListener("click", addTodoItem);
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    addTodoItem();
+  }
 });
