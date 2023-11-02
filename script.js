@@ -47,6 +47,11 @@ function addTodoItem() {
   removeButton.addEventListener("click", () => {
     removeButton.parentElement.remove();
   });
+  window.addEventListener("keyup", (event) => {
+    if (event.ctrlKey === true && event.key === "x") {
+      document.querySelector(".remove").parentElement.remove();
+    }
+  });
 
   item.appendChild(removeButton);
 
