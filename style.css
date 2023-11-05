@@ -43,6 +43,23 @@ ul {
   padding-left: 0px;
 }
 
+input {
+  height: 20px;
+  font-size: 14.5px;
+  padding-top: 1px;
+  border-radius: 2.5px;
+  border: 0.5px solid black;
+  margin-left: 5px;
+}
+
+i {
+  margin: 0px;
+}
+
+label {
+  font-size: 15px;
+}
+
 label,
 input {
   margin-bottom: 10px;
