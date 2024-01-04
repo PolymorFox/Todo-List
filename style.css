@@ -1,5 +1,18 @@
-h1,
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
 h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+h1,
+h3,
+h2 {
   font-family: "Roboto", sans-serif;
 }
 
@@ -11,8 +24,13 @@ a:link {
   width: 20px;
 }
 
+.credits {
+  list-style: circle;
+}
+
 a:hover {
   text-decoration: underline;
+  font-style: italic;
 }
 
 label {

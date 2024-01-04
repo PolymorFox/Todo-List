@@ -54,12 +54,6 @@ function addTodoItem() {
   });
 
   item.appendChild(removeButton);
-  item.insertAdjacentHTML(
-    "beforeend",
-    `
-  <hr>
-  `
-  );
 
   document.querySelector("ul").appendChild(item);
   listItems = document.querySelector("ul").innerHTML;

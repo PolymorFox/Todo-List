@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./dist/main.css" />
     <link rel="icon" href="./Images/favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,6 +22,7 @@
     </header>
     <hr />
     <main>
+      <h2>Your List</h2>
       <ul class="todo-list"></ul>
 
       <button id="clear">Clear <i class="fa-solid fa-eraser"></i></button>
@@ -49,32 +50,40 @@
     <br />
     <footer>
       <h3>Credits</h3>
-
-      <a
-        href="https://fonts.google.com"
-        target="_blank"
-        title="I like Google Fonts"
-        >Google Fonts
-        <img
-          src="./Images/google-fonts.png"
-          alt="Google Fonts Logo"
-          class="icon"
-        />
-      </a>
-      <br />
-      <a
-        href="https://fontawesome.com"
-        target="_blank"
-        title="I love Fontawesome"
-      >
-        Fontawesome
-        <i class="fa-solid fa-font-awesome"></i>
-      </a>
-      <br />
-      <a href="https://vscodium.com/" target="_blank" title="I love VSCodium"
-        >Built with VSCodium
-        <img src="./Images/vscodium.png" alt="VSCodium logo" class="icon"
-      /></a>
+      <ul class="credits">
+        <li>
+          <a
+            href="https://fonts.google.com"
+            target="_blank"
+            title="I like Google Fonts"
+            >Google Fonts
+            <img
+              src="./Images/google-fonts.png"
+              alt="Google Fonts Logo"
+              class="icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://fontawesome.com"
+            target="_blank"
+            title="I love Fontawesome"
+          >
+            Fontawesome
+            <i class="fa-solid fa-font-awesome"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://vscodium.com/"
+            target="_blank"
+            title="I love VSCodium"
+            >Built with VSCodium
+            <img src="./Images/vscodium.png" alt="VSCodium logo" class="icon"
+          /></a>
+        </li>
+      </ul>
 
       <script src="script.js"></script>
       <script
