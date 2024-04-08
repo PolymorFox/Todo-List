@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.15rem;
+}
+
+hr {
+  color: gray;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+section {
+  margin-top: 1.5em;
+}
+
+article {
+  border-top: 1px solid gray;
+  padding-top: 0.25em;
+}
+
+div {
+  display: flex;
+  margin: auto 20%;
+}
+
+.item {
+  margin: 10px 15%;
+  border: 0.5px solid gray;
+  margin-bottom: 0.25em;
+  width: 50%;
+  padding-left: 5px;
+  padding-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7.5px;
+}
+
+.item button {
+  padding: 2.5px;
+  margin-right: 0;
+  margin-left: 83%;
+  border-radius: 3px;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+button {
+  border: 1.5px gray solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+input {
+  border: 1.5px gray solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 5px;
+}
